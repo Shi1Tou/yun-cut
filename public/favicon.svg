@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="云夹">
+  <defs>
+    <linearGradient id="g" x1="6" y1="6" x2="58" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="0.52" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#312E81" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#g)"/>
+  <g filter="url(#s)">
+    <rect x="16" y="12" width="25" height="35" rx="7" fill="#FFFFFF" fill-opacity="0.25" transform="rotate(-9 28.5 29.5)"/>
+    <rect x="23" y="16" width="25" height="35" rx="7" fill="#FFFFFF"/>
+  </g>
+  <path d="M30 27h11M30 33h11M30 39h7" stroke="#4F46E5" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

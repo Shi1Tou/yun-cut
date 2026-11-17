@@ -1,0 +1,13 @@
+{
+  "name": "云夹 · 在线云剪贴板",
+  "short_name": "云夹",
+  "description": "免登录的跨设备云剪贴板",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8fc",
+  "theme_color": "#315efb",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

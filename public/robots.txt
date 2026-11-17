@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /n/
+
+# 这是一个自托管项目。请把站点地图域名替换成你自己的域名后再启用。
+# Sitemap: https://your-domain.com/sitemap.xml

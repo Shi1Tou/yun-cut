@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.dev-kv.json
+data/
+qa/
+.pnpm-store/
+.edgeone/
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+.vscode/
+.idea/

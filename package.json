@@ -1,0 +1,37 @@
+{
+  "name": "yunclip",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "云夹 · 一个极简、免登录、可自托管的在线云剪贴板",
+  "packageManager": "pnpm@11.28.5",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "tsc --noEmit && node scripts/build.mjs",
+    "preview": "npm run build && node scripts/serve.mjs",
+    "test": "node tests/api.test.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "0.468.0",
+    "qrcode.react": "4.2.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "7.18.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "29.0.3",
+    "@rollup/plugin-node-resolve": "16.0.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "esbuild": "0.28.2",
+    "rollup": "4.68.4",
+    "terser": "5.51.2",
+    "typescript": "5.9.3",
+    "vite": "7.3.8"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}
